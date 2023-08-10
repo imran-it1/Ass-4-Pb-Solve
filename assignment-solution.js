@@ -1,4 +1,4 @@
-// Problem 1 Solution
+// Problem 1
 
 function cubeNumber(number) {
     if (typeof number !== 'number'){
@@ -8,12 +8,12 @@ function cubeNumber(number) {
     return cubeResult;
 }
 
-let inputNumber = '2';
-let output = cubeNumber(inputNumber);
+// let inputNumber = '2';
+// let output = cubeNumber(inputNumber);
 // console.log(output);
 
 
-// Problem 2 solution
+// Problem 2
 
 function matchFinder(string1, string2) {
 
@@ -30,9 +30,9 @@ function matchFinder(string1, string2) {
     }
 }
 
-const str1 = 'john doe'
-const str2 = 'e';
+// const str1 = 'john doe'
+// const str2 = 'e';
 
-const output2 = matchFinder(str1, str2);
-console.log(output2);
+// const output2 = matchFinder(str1, str2);
+// console.log(output2);
 
