@@ -36,3 +36,40 @@ function matchFinder(string1, string2) {
 // const output2 = matchFinder(str1, str2);
 // console.log(output2);
 
+
+
+function sortMaker(arr) {
+
+    if (arr[0] >= 0 && arr[1] >= 0){
+
+        if( arr[0] > arr[1] ){
+            return arr;
+        }
+
+        else if( arr[1] > arr[0] ){
+            let sortArray = [arr[1], arr[0]];
+            return sortArray;
+        }
+        else if ( arr[0] === arr[1] ){
+            return 'equal'
+        }
+    }
+    else{
+        return 'Invalid Input'
+    }
+
+}
+
+// let input = [0, 1]
+// let output3 = sortMaker(input);
+// console.log(output3);
+
+
+
+function findAddress(obj) {
+
+
+
+}
+
+
