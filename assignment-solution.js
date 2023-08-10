@@ -1,4 +1,4 @@
-// Problem 1
+// 1
 
 function cubeNumber(number) {
     if (typeof number !== 'number'){
@@ -13,7 +13,7 @@ function cubeNumber(number) {
 // console.log(output);
 
 
-// Problem 2
+// 2
 
 function matchFinder(string1, string2) {
 
@@ -37,6 +37,8 @@ function matchFinder(string1, string2) {
 // console.log(output2);
 
 
+
+//3
 
 function sortMaker(arr) {
 
@@ -65,11 +67,22 @@ function sortMaker(arr) {
 // console.log(output3);
 
 
+// 4
 
 function findAddress(obj) {
 
-
+    let address = obj.street + ',' + obj.house+ ',' + obj.society;
+    return address;
 
 }
 
 
+let person = {
+    street:10,
+    house:"15A",
+    society:"Earth Perfect"
+}
+
+
+// let output = findAddress(person);
+// console.log(output);
