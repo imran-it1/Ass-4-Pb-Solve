@@ -86,3 +86,34 @@ let person = {
 
 // let output = findAddress(person);
 // console.log(output);
+
+
+
+//5
+
+
+function canPay(changeArray, totalDue) {
+
+    if(changeArray.length === 0){
+        return 'Please provide valid array....';
+    }
+
+    let moneyHave = 0;
+
+    for (let item of changeArray ){
+        moneyHave += item;
+    }
+
+    if(moneyHave >= totalDue){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+let changeArray = [1, 5, 5];
+let actualPrice = 10;
+ 
+let output4 = canPay(changeArray, actualPrice);
+console.log(output4);
